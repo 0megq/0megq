@@ -1,3 +1,5 @@
-Game Developer
+# Game Developer and Honors CS Student
 
-Recently released my game, [Trials of Yarbil](https://github.com/0megq/trials-of-yarbil-odin) made with Odin lang and Raylib!
+Just made a [pixel farming game entirely based on a falling sand simulation](https://github.com/0megq/cs-club-jam) in 3 weeks.
+
+My Steam game: [Trials of Yarbil](https://github.com/0megq/trials-of-yarbil-odin) made with Odin lang and Raylib!
