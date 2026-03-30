@@ -1,5 +1,7 @@
 # Game Developer and Honors CS Student
 
-Just made a [pixel farming game entirely based on a falling sand simulation](https://github.com/0megq/cs-club-jam) in 3 weeks.
+[Gameplay Programming Work Sample](https://github.com/0megq/trials-of-yarbil-odin): Trials of Yarbil is a top-down roguelike made with a custom engine written in Odin.
 
-My Steam game: [Trials of Yarbil](https://github.com/0megq/trials-of-yarbil-odin) made without engine with Odin lang and Raylib!
+[Unity and C# Work Sample](https://github.com/0megq/BookClubGameJam2025): This is a 3D point-and-click adventure game developed in one month for the Book Club Game Jam 2025 in Unity.
+
+[Live Itch Demo of a Current Project](https://0megq.itch.io/attention-deficit-overload): Attention Deficit Overload is an action-strategy game made in Godot.
