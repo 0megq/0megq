@@ -1,4 +1,4 @@
-# Game Developer and Honors CS Student
+# Game Programmer and Developer
 
 [Gameplay Programming Work Sample](https://github.com/0megq/trials-of-yarbil-odin): Trials of Yarbil is a top-down roguelike made with a custom engine written in Odin.
 
