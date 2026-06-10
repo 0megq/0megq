@@ -1,6 +1,6 @@
 # Game Programmer and Developer
 
-[Gameplay Programming Work Sample](https://github.com/0megq/trials-of-yarbil-odin): Trials of Yarbil is a top-down roguelike made with a custom engine written in Odin.
+[Gameplay Programming Work Sample](https://github.com/0megq/trials-of-yarbil-odin): Released Steam game. Trials of Yarbil is a top-down roguelike made with a custom engine written in Odin.
 
 [Unity and C# Work Sample](https://github.com/0megq/BookClubGameJam2025): This is a 3D point-and-click adventure game developed in one month for the Book Club Game Jam 2025 in Unity.
 
