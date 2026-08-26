@@ -6,4 +6,4 @@
 
 [Compute Shaders and Pixel Simulation Sample](https://github.com/0megq/cs-club-jam/tree/master): This is a small farming game where every pixel in your farm is simulated. Written in Godot, it uses both CPU and GPU (compute shaders) simulation of pixels.
 
-[Live Itch Demo Sample](https://0megq.itch.io/attention-deficit-overload) with [Source Code](https://github.com/lambinsea/game1): Attention Deficit Overload is an action-strategy game being developed in Godot by three friends.
+[Live Itch Demo Sample](https://0megq.itch.io/holstein-collection-inc) with [Source Code](https://github.com/0megq/wildjam-aug26): Holstein Collection Inc. is a visual novel where you play as a bull collecting debt from those who've defaulted on their electricity bills. Made for the Godot Wild Jam #96.
