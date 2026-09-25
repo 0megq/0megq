@@ -2,12 +2,11 @@
 Hi! I'm Nick. I'm currently a student studying computer science at UCLA and building a career in games. In my free time I make my own games and cool graphics projects. If you want to learn more [checkout my resume](https://github.com/0megq/0megq/blob/main/res/Resume_9_25_26.pdf) or look below for a small portfolio showcasing those projects. Enjoy!
 
 ## Jump to a specific project with the links below:
-- [Particle Engine Project](#particle-engine): A 3D particle system in C++ and Raylib. Implementing custom spacial partitioning algorithms (octree, sweep and prune) for efficient collision detection
-- [Godot Wild Jam #93](#godot-wild-jam93): A visual novel game built in a team of 5 with Godot. I implemented a custom dialog engine to import story text files written in Twine (a story-writing tool)
-- [Trials of Yarbil](#toy): A top-down action game developed without an engine in Odin (a C-like language) and Raylib. This was a solo project where I built core engine systems like pathfinding, game serialization, level editors, and entity
+- 🟢 [Particle Engine Project](#particle-engine): A 3D particle system made with C++ and Raylib (a simple graphics library). Implementing custom spatial partitioning algorithms (octree, sweep and prune, etc.) for efficient collision detection.
+- 🐂 [Holstein Collection Inc.](#godot-wild-jam93): A visual novel game built by a team of 5 in under 9 days for the Godot Wild Jam #93. I implemented a custom dialog engine to import story text files written in Twine (a story-writing tool).
+- 👺 [Trials of Yarbil](#toy): A top-down action game released to Steam, and developed without an engine in Odin (a C-like language) and Raylib. This was a solo project where I built core engine systems like smoothed A* pathfinding, level editors, dynamic enemy behavior with state machines, and game serailization.
 
-
-<h2 id="particle-engine">Particle Engine Project</h2>
+<h2 id="particle-engine">🟢 Particle Engine Project</h2>
 
 [Source Code](http://github.com/0megq/particle-engine) | C++, Raylib, CMake, 3D Physics Simulation
 
@@ -46,7 +45,7 @@ However, after implementing said octree I am yet to yield any performance issues
 2. Add user interaction
     - Enable/disable spawning with a button press
     - Let the user control forces on the particles such as changing the direction/strength of gravity and adding custom forces
-<h2 id="godot-wild-jam93"> Godot Wild Jam #93 (Holstein Collection Inc.) </h2>
+<h2 id="godot-wild-jam93">🐂 Holstein Collection Inc.(Godot Wild Jam #93) </h2>
 
 [Source Code](https://github.com/0megq/wildjam-aug26), [Demo](https://0megq.itch.io/holstein-collection-inc) | Godot, Python, Custom Dialog Engine, Team of 5
 
@@ -58,7 +57,7 @@ For this project, I served as lead programmer where I wrote a __Godot dialog eng
 
 I am yet to create a full technical write-up for this project, but a short [live demo](https://0megq.itch.io/holstein-collection-inc) can be played on itch. [Source code](https://github.com/0megq/wildjam-aug26) of the custom Godot dialog engine is also available.
 
-<h2 id="toy">Trials of Yarbil</h2>
+<h2 id="toy">👺 Trials of Yarbil</h2>
 
 [Source Code](https://github.com/0megq/trials-of-yarbil-odin), [Demo](https://github.com/0megq/trials-of-yarbil-odin/releases/tag/v1.1), [Steam Page](https://store.steampowered.com/app/3320710/Trials_of_Yarbil/) | Odin, Raylib, Custom Engine
 
@@ -76,7 +75,7 @@ Lastly, during the last 3 months I worked with [Thomas Randall](https://www.yout
 
 
 <!-- 
-# Other Projects
+## Archived Projects
 
 [Unity and C# Sample](https://github.com/0megq/BookClubGameJam2025): This is a 3D point-and-click adventure game solo-developed in one month for the Book Club Game Jam 2025 in Unity. I worked on rigging an external
 
