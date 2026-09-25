@@ -45,7 +45,7 @@ However, after implementing said octree I am yet to yield any performance issues
 2. Add user interaction
     - Enable/disable spawning with a button press
     - Let the user control forces on the particles such as changing the direction/strength of gravity and adding custom forces
-<h2 id="godot-wild-jam93">🐂 Holstein Collection Inc.(Godot Wild Jam #93) </h2>
+<h2 id="godot-wild-jam93">🐂 Holstein Collection Inc. (Godot Wild Jam #93) </h2>
 
 [Source Code](https://github.com/0megq/wildjam-aug26), [Demo](https://0megq.itch.io/holstein-collection-inc) | Godot, Python, Custom Dialog Engine, Team of 5
 
