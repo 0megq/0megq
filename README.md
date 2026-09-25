@@ -1,8 +1,8 @@
 # Games Engineer Portfolio
 Hi! I'm Nick. I'm currently a student studying computer science at UCLA and building a career in games. In my free time I make my own games and some cool graphics projects. I'm using this page as a small portfolio showcasing those projects. Enjoy!
 
-Jump to a specific project with the links below:
-- [Particle Engine Project](#particle-engine): A 3D partile simulation in C++ and Raylib. Implementing custom spacial partitioning algorithms (octree, sweep and prune) for efficient collision detection
+## Jump to a specific project with the links below:
+- [Particle Engine Project](#particle-engine): A 3D particle system in C++ and Raylib. Implementing custom spacial partitioning algorithms (octree, sweep and prune) for efficient collision detection
 - [Godot Wild Jam #93](#godot-wild-jam93): A visual novel game built in a team of 5 with Godot. I implemented a custom dialog engine to import story text files written in Twine (a story-writing tool)
 - [Trials of Yarbil](#toy): A top-down action game developed without an engine in Odin (a C-like language) and Raylib. This was a solo project where I built core engine systems like pathfinding, game serialization, level editors, and entity
 
