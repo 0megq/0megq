@@ -1,5 +1,5 @@
 # Games Engineer Portfolio
-Hi! I'm Nick. I'm currently a student studying computer science at UCLA and building a career in games. In my free time I make my own games and some cool graphics projects. This is a small portfolio showcasing those projects. Enjoy!
+Hi! I'm Nick. I'm currently a student studying computer science at UCLA and building a career in games. In my free time I make my own games and some cool graphics projects. I'm using this page as a small portfolio showcasing those projects. Enjoy!
 
 Jump to a specific project with the links below:
 - [Particle Engine Project](#particle-engine): A 3D partile simulation in C++ and Raylib. Implementing custom spacial partitioning algorithms (octree, sweep and prune) for efficient collision detection
