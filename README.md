@@ -1,5 +1,5 @@
 # Graphics and Games Engineer Portfolio
-Hi! I'm Nick. I'm currently a student studying computer science at UCLA and building a career in games. In my free time I make my own games and cool graphics projects. If you want to learn more [checkout my resume](https://github.com/0megq/0megq/blob/main/res/Resume_9_25_26.pdf) or look below for a small portfolio showcasing those projects. Enjoy!
+Hi! I'm Nick. I'm currently a student studying computer science at UCLA and building a career in games. In my free time I make my own games and cool graphics projects. If you want to learn more [checkout my resume](https://github.com/0megq/0megq/blob/main/res/Resume_10_27.pdf) or look below for a small portfolio showcasing those projects. Enjoy!
 
 ## Jump to a specific project with the links below:
 - 🟢 [Particle Engine Project](#particle-engine): A 3D particle system made with C++ and Raylib (a simple graphics library). Implementing custom spatial partitioning algorithms (octree, sweep and prune, etc.) for efficient collision detection.
