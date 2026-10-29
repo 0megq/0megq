@@ -1,10 +1,11 @@
-# Graphics and Games Engineer Portfolio
-Hi! I'm Nick. I'm currently a student studying computer science at UCLA and building a career in games. In my free time I make my own games and cool graphics projects. If you want to learn more [checkout my resume](https://github.com/0megq/0megq/blob/main/res/Resume_10_27.pdf) or look below for a small portfolio showcasing those projects. Enjoy!
+# Software Engineer Portfolio
+Hi! I'm Nick. I'm currently a student studying computer science at UCLA and building a career in games and software. In my free time I make my own games, cool graphics projects, and improve my home server. If you want to learn more [checkout my resume](https://github.com/0megq/0megq/blob/main/res/Resume_10_27.pdf) or look below for a small portfolio showcasing those projects. Enjoy!
 
 ## Jump to a specific project with the links below:
 - 🟢 [Particle Engine Project](#particle-engine): A 3D particle system made with C++ and Raylib (a simple graphics library). Implementing custom spatial partitioning algorithms (octree, sweep and prune, etc.) for efficient collision detection.
 - 🐂 [Holstein Collection Inc.](#godot-wild-jam93): A visual novel game built by a team of 5 in under 9 days for the Godot Wild Jam #93. I implemented a custom dialog engine to import story text files written in Twine (a story-writing tool).
 - 👺 [Trials of Yarbil](#toy): A top-down action game released to Steam, and developed without an engine in Odin (a C-like language) and Raylib. This was a solo project where I built core engine systems like smoothed A* pathfinding, level editors, dynamic enemy behavior with state machines, and game serialization.
+- 🖥 [Home Server](#home-server): A home server built using a Raspberry Pi 4 which hosts several apps like File Browser and uses Tailscale for remote access.
 
 <h2 id="particle-engine">🟢 Particle Engine Project</h2>
 
@@ -73,6 +74,21 @@ Besides posting devlogs, I regularly attend a local indie dev meetup in Orange C
 
 Lastly, during the last 3 months I worked with [Thomas Randall](https://www.youtube.com/@randyprime) who mentored me and provided guidance on how to refine the game design and visual style, as well as, iterate on player feedback. His help was tremendous especially when it came to upgrading the combat feel. The combat would not feel nearly as good without his guidance. Thanks Tom!
 
+<h2 id="home-server">🖥 Home Server</h2>
+
+In March 2026, I bought a Raspberry Pi 4 to setup my own home server in an effort to take my data offline and out of cloud services. I followed the first few videos of [this tutorial series](https://www.youtube.com/watch?v=cO2-gQ09Jj0&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=1) and then worked on it independently.
+
+![Home Server Picture](./res/rasp-pi.png)
+
+The first iteration of the server ran File Browser, Portainer, Homer, and Shell In A Box. For remote access I setup Wireguard as well using PiVPN, and forwarded the port through my home internet's firewall. I also hooked up a FreeDNS domain and a CRON job to update the domain's IP as needed.
+
+Pretty soon though I investigated using Tailscale. My goal was to still allow VPN-like access to all my applications, so individual application setup could be simpler, while also not exposing any ports from my home router. Tailscale is absolutely perfect for this, because it provides all the features that a barebone Wireguard setup provides, as well as some nice features like Magic DNS and being able to serve a server to the public with a single `tailscale serve` command.
+
+At this point, I had also purchased a 1TB SSD and was ready to setup a proper filesystem with Nextcloud All-in-One. Setup was a bit rocky, but I eventually got it working. However, there were a couple instances where Nextcloud's sync feature led to some of my files being outright deleted (maybe my fault, but not sure). Additionally, there were some connectivity issues with the SSD and the Raspberry Pi which meant Nextcloud could go offline when I'm not home and I wouldn't have access to my files. And lastly, uploading files was really slow! The setup felt quite unstable. It was likely both a Nextcloud issue, and an issue with SSD connectivity (either the SSD itself, the adapter, or the Raspberry Pi not connecting well).
+
+Because of this, I retired the Nextcloud + SSD setup and have gone back to a simple File Browser and Tailscale setup. I now use the server as a VPN when I'm browsing on public WiFi, or as a basic file system to transfer files between devices.
+
+Work on this project is a bit slow since I'm quite busy with school, so not much progress has been made. I plan to setup an image server like Immich so I can take my pictures off of Google Photos, and also setup a solid file system (perhaps OwnCloud, OpenCloud, FileBrowser Quantum, Seafile, etc.).
 
 <!-- 
 ## Archived Projects
